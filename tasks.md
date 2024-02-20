@@ -74,7 +74,7 @@ SELECT COUNT(*) FROM matches WHERE division_code = 'N1' AND ftr = 'D' AND ( seas
 
 ```sql
 <!-- Copy solution here -->
-
+SELECT * FROM matches ORDER BY (fthg + ftag)DESC, fthg DESC;
 
 ```
 
