@@ -39,7 +39,7 @@ SELECT COUNT(*) FROM matches WHERE division_code ='D1' AND (hometeam = 'Freiburg
 
 ```sql
 <!-- Copy solution here -->
-
+SELECT DISTINCT hometeam FROM matches WHERE hometeam LIKE '%City%';
 
 
 ```
